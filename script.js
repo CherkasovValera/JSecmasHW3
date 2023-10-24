@@ -57,7 +57,7 @@ class Product {
 }
 class Order {
   constructor(orderNum) {
-    this.orderNumber = orderNum;
+    this.orderNum = orderNum;
     this.id = null;
     this.products = [];
     this.totalPrise = 0;
